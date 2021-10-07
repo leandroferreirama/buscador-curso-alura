@@ -1,0 +1,21 @@
+{
+    "name": "leandroferreirama/buscador-curso-alura",
+    "description": "Projeto que listam os cursos dispon\u0000veis em php no site da alura",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leandroferreirama\\BuscadorCursoAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leandro Ferreira Marcelli",
+            "email": "suporte@integracaosistema.com.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.3"
+    }
+}
